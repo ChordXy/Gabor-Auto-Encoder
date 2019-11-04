@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "C:\\Users\\Cabrite\\Anaconda3",
+    "python.linting.pylintPath": "C:\\Users\\Cabrite\\Anaconda3\\Scripts\\pylint.exe",
+    "python.linting.pylintArgs": [
+        "--generate-members"
+    ]
+}
