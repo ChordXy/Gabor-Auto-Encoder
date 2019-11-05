@@ -13,7 +13,7 @@ training_epochs = 20
 batch_size = 128
 display_step = 1
 
-corruption_level = 0.0
+corruption_level = 0.2
 sparse_reg = 2
 
 #
