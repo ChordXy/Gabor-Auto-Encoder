@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\Cabrite\\Anaconda3",
+    "python.pythonPath": "/Users/hanjuanchen/anaconda3/bin/python",
     "python.linting.pylintPath": "C:\\Users\\Cabrite\\Anaconda3\\Scripts\\pylint.exe",
     "python.linting.pylintArgs": [
         "--generate-members"

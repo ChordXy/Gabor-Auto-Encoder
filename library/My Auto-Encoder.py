@@ -1,16 +1,16 @@
 '''
 @Author: Cabrite
-@Date: 2019-11-04 19:45:33
-@LastEditTime: 2019-11-04 22:00:51
-@LastEditors: Please set LastEditors
-@Description: AE
-@FilePath: \Gabor-Auto-Encoder\library\My Auto-Encoder.py
+@Date: 2019-11-05 21:50:39
+@LastEditors: Cabrite
+@LastEditTime: 2019-11-06 21:40:04
+@Description: This is a test AE code.
 '''
 from tensorflow.examples.tutorials.mnist import input_data
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
 import pylab
+
 
 def VisulizeImage(src_images, cor_images, res_images):
     fig, ax = plt.subplots(nrows=3, ncols=6, sharex='all', sharey='all')
@@ -34,7 +34,7 @@ def VisulizeImage(src_images, cor_images, res_images):
 ######################## Defining Parameters ########################
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 n_samples = int(mnist.train.num_examples)
-training_epochs = 30
+training_epochs = 1
 batch_size = 128
 total_batch = int(n_samples / batch_size)
 display_step = 1
